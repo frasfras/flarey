@@ -14,7 +14,6 @@ const Venue = () => {
         <a>Go back to the homepage</a>
       </Link> */}
       <VenueInfo />
-      <UserTable />
     </div>
   );
 };
