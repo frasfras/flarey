@@ -1,0 +1,16 @@
+.flashing-image {
+    animation: flashing 1s infinite;
+  }
+  
+  @keyframes flashing {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
