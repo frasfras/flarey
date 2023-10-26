@@ -1,7 +1,7 @@
-import Sidebar from '../../components/Sidebar'
-import Navbar from '../../components/Navbar'
-import VenueInfo from '../../components/VenueInfo'
-import PubSubComponent from '../../components/PubSubComponent';
+import Sidebar from './Sidebar'
+import Navbar from './Navbar'
+import VenueInfo from './VenueInfo'
+import PubSubComponent from './PubSubComponent';
 
 import * as Ably from 'ably';
 import { AblyProvider, useChannel, usePresence } from 'ably/react';
