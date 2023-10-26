@@ -1,7 +1,7 @@
 
 // pages/about.js
-import VenueInfo from './VenueInfo'
-import Sidebar from './Sidebar'
+import VenueInfo from 'VenueInfo'
+import Sidebar from 'Sidebar'
 import Link from 'next/link';
 
 export default function About(){
