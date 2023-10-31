@@ -62,6 +62,7 @@ const PieChartPlot = () => {
     const [results, setResults] = useState({});
     return (
         <>
+         <h2 style={{ color: "yellow" }}>Followers</h2>
           <ResponsiveContainer width="100%" height="100%">
             <PieChart width={730} height={250}>
               <Pie
