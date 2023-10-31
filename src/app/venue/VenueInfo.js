@@ -18,19 +18,23 @@ const VenueInfo = () => {
     // setShowImage((prevState) => ({
     //   showImage: !prevState.showImage,
     // }));
-    // if (showImage==false){
-    //   setShowImage(true)
-    // };
-    // if (showImage==true){
-    //   setShowImage(false)
-    // };
+     if (showImage==false){
+       setShowImage(true)
+     };
+     if (showImage==true){
+       setShowImage(false)
+     };
     
   };
   
 
   return (
     <div>
-      <h1>Concert Venue Details</h1>
+      <button className="btn btn-success" primary onClick={toggleImage}>
+        {showImage ? <h4>**Hide Venue**</h4> : <h4>*Show Venue*</h4>}
+      </button>
+      {showImage &&  <h1 style={{ color: "red" }}>Concert Venue Details</h1>}
+      {showImage && (
       <select onChange={handleVenueChange} value={selectedVenue.name}>
         {venuesData.map((venue) => (
           <option key={venue.name} value={venue.name}>
@@ -38,11 +42,12 @@ const VenueInfo = () => {
           </option>
         ))}
       </select>
+       )}  
       <div>
         <h2>{selectedVenue.name}</h2>
         <p>{selectedVenue.details}</p>
         <button className='btn btn-success' onClick={toggleImage}>
-          {showImage ? 'Start Image' : 'Stop Image'}
+          {/*{showImage ? 'Start Image' : 'Stop Image'} */}
         </button>
         {showImage && (
          <image></image>
