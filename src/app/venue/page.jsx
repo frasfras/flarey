@@ -1,5 +1,5 @@
-import Sidebar from "../../components/Sidebar";
-import Navbar from "../../components/Navbar";
+import Sidebar from './Sidebar'
+import Navbar from "./Navbar";
 import VenueInfo from "../../components/VenueInfo";
 import Chat from "../../components/Chat";
 
