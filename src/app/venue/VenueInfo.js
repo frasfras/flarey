@@ -6,7 +6,7 @@ import venuesData from './venuesData';
 
 const VenueInfo = () => {
   const [selectedVenue, setSelectedVenue] = useState(venuesData[0]); // Initialize with the first venue
-  const [showImage,setShowImage] = useState(false);
+  const [showImage,setShowImage] = useState(true);
 
   const handleVenueChange = (event) => {
     const selectedVenueName = event.target.value;
