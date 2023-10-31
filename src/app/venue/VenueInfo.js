@@ -52,7 +52,7 @@ const VenueInfo = () => {
         {showImage && (
          <image></image>
         )}
-         <img src={selectedVenue.image} alt={`${selectedVenue.name} Image`} />
+         <img style={{ width: 500, height: 390 }} src={selectedVenue.image} alt={`${selectedVenue.name} Image`} />
       </div>
     </div>
   );
