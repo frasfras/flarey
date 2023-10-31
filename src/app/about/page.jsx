@@ -19,7 +19,7 @@ export default function About(){
            <p>This is the About Concert Venue .</p>
           </div>
           <div className=" w-1/3 h-[250px] bg-white-700 rounded"><VenueInfo /></div>
-          <div className=" w-1/3 h-[250px] bg-gray-700 rounded"></div>
+          <div className=" w-1/3 h-[250px] bg-white-700 rounded"></div>
         </section>
         </main>
       );
