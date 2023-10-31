@@ -1,7 +1,7 @@
 import Sidebar from './Sidebar'
 import Navbar from "./Navbar";
-import VenueInfo from "../../components/VenueInfo";
-import Chat from "../../components/Chat";
+import VenueInfo from "./VenueInfo";
+import Chat from "./Chat";
 
 import * as Ably from "ably";
 import { AblyProvider, useChannel, usePresence } from "ably/react";
