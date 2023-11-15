@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 import Ably from "ably";
 
-const apiKey = "rPf5Qg.Otq9Cw:LV2j8UZTe_p3ZTrZB2BnNfJDBzClhO0JX9tGJO7pldQ";
+const apiKey = "rPf5Qg.Otq9Cw:LV2j8UZTe_p3ZTrZB2BnNfJDBzClhO0JX9tGJO7pldQ_";
 const channelName = "voting-channel";
 
 const initialPetData = [
